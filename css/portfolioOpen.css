@@ -1,0 +1,96 @@
+header{
+    position: fixed;
+    width: 100%;
+    font-size: 18px;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+.openMain{
+   min-height: 955px;
+}
+.scroll-info{
+    height: 755px;
+}
+.scroll{
+    overflow-y: scroll;
+    overflow-x: hidden;
+    width: 60%;
+}
+
+.bgi1 {
+    background: url("../img/img1.png") center/cover;
+  }
+  .bgi2 {
+    background: url("../img/img2.png") center/cover;
+  }
+  .bgi3 {
+    background: url("../img/img3.png") center/cover;
+  }
+  .bgi4 {
+    background: url("../img/img4.png") center/cover;
+  }
+  .bgi5 {
+    background: url("../img/img5.png") center/cover;
+  }
+  .bgi6 {
+    background: url("../img/img6.png") center/cover;
+  }
+  .bgi7 {
+    background: url("../img/img7.png") center/cover;
+  }
+  .bgi8 {
+    background: url("../img/img8.png") center/cover;
+  }
+  .bgi1,.bgi2,.bgi3,.bgi4,.bgi5,.bgi6,.bgi7,.bgi8{
+      min-height: 500px;
+      margin-bottom: 10px;
+  }
+  .bgi8{
+      margin: 0;
+  }
+
+.infoScroll{
+    width: 40%;
+}
+.infoScroll-all{
+    width: 41%;
+}
+.infoScroll-header{
+    font-family: "Roboto Slab", serif;
+    font-size: 36px;
+    text-transform: uppercase;
+}
+.infoScroll-text{
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    margin: 10px 0 20px;
+    font-weight: bold;
+}
+.infoScroll-btn{
+    width: 240px;
+    padding: 20px 50px;
+    border: 1px solid;
+    text-align: center;
+    font-family: "Roboto Slab", serif;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 0.35em;
+}
+.infoScroll-btn:hover{
+    background-color: #ffc000;
+}
+
+.scroll-nav{
+    height: 12em;
+}
+.scroll-nav > a{
+    font-family: "Roboto Slab", serif;
+    font-weight: bold;
+    font-size: 18px;
+    color:#000;
+}
+.scroll-nav > a:hover{
+    text-decoration: underline;
+}
+.other-btn{
+    padding: 15px 30px;
+}
