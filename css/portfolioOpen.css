@@ -4,16 +4,26 @@ header {
   font-size: 18px;
   background-color: rgba(255, 255, 255, 0.6);
 }
+@media (max-width: 1199px) {
+  .navbar-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+}
 .openMain {
-  min-height: 955px;
 }
 .scroll-info {
-  height: 755px;
+  height: 100vh;
 }
 .scroll {
   overflow-y: scroll;
   overflow-x: hidden;
   width: 60%;
+}
+.scroll::-webkit-scrollbar {
+  display: none;
 }
 
 .bgi1 {
@@ -61,6 +71,11 @@ header {
 .infoScroll-all {
   width: 41%;
 }
+@media (max-width: 1199px) {
+  .infoScroll-all {
+    width: 65%;
+  }
+}
 .infoScroll-header {
   font-family: "Roboto Slab", serif;
   font-size: 36px;
@@ -102,4 +117,12 @@ header {
 }
 .other-btn {
   padding: 15px 30px;
+}
+@media (max-width: 575px) {
+  .scroll-nav {
+    flex-direction: column-reverse;
+  }
+  .scroll-nav > a {
+    margin: 2%;
+  }
 }
