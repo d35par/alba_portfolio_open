@@ -12,15 +12,31 @@ header {
     width: 100%;
   }
 }
+@media (max-width: 992px) {
+  header {
+    position: static;
+  }
+}
 .openMain {
 }
 .scroll-info {
   height: 100vh;
 }
+@media (max-width: 992px) {
+  .scroll-info {
+    flex-direction: column-reverse;
+    height: 150vh;
+  }
+}
 .scroll {
   overflow-y: scroll;
   overflow-x: hidden;
   width: 60%;
+}
+@media (max-width: 992px) {
+  .scroll {
+    width: 100%;
+  }
 }
 .scroll::-webkit-scrollbar {
   display: none;
@@ -76,6 +92,15 @@ header {
     width: 65%;
   }
 }
+@media (max-width: 992px) {
+  .infoScroll {
+    width: 100%;
+    min-height: 45vh;
+  }
+  .infoScroll-all {
+    align-items: center;
+  }
+}
 .infoScroll-header {
   font-family: "Roboto Slab", serif;
   font-size: 36px;
@@ -121,8 +146,9 @@ header {
 @media (max-width: 575px) {
   .scroll-nav {
     flex-direction: column-reverse;
+    height: 15em;
   }
   .scroll-nav > a {
-    margin: 2%;
+    margin: 6%;
   }
 }
