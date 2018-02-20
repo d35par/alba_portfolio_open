@@ -130,6 +130,7 @@ header {
 
 .scroll-nav {
   height: 12em;
+  justify-content: space-around;
 }
 .scroll-nav > a {
   font-family: "Roboto Slab", serif;
@@ -147,8 +148,9 @@ header {
   .scroll-nav {
     flex-direction: column-reverse;
     height: 15em;
+    justify-content: center;
   }
   .scroll-nav > a {
-    margin: 6%;
+    margin: 4%;
   }
 }
